@@ -1,0 +1,265 @@
+.header{
+    height: 65px;
+    width: 100%;
+    background-color: rgb(117,1,19);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: fixed;
+    z-index: 4;
+
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(117,1,19);
+    
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    
+
+}
+
+.logo{
+    margin-left: 10px;
+    margin-right: 120px;
+    cursor: pointer;
+
+}
+
+.menu{
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.search{
+    margin-right: 20px;
+    margin-left: 120px;
+    width: 206px;
+   
+}
+
+
+.search_box{
+    width: 206px; 
+    height: 25px; 
+    border-radius: 20px; 
+    border: 0;
+}
+
+.menu-option{
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.menu-option:hover{
+    text-decoration: underline;
+    color: black;
+}
+
+.background_img{
+    width: 100%;
+    height: auto;
+
+}
+
+.body{
+    flex: 1;
+}
+
+.footer{
+    background-color: rgb(117,1,19);
+    height: 90px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    height: 90%;
+    width: 450px;
+    position: absolute;
+    top: 74px;
+    right: 15px;
+    border-radius: 20px;
+    
+    display: flex;
+    flex-direction: row;
+}
+
+.text_box{
+    height: 40%;
+    width: 450px;
+    position: absolute;
+    top: 170px;
+    left: 90px;
+    color: rgb(0, 0, 0);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 96px;
+}
+.text_box1{
+    height: 40%;
+    width: 450px;
+    position: absolute;
+    top: 170px;
+    left: 90px;
+    color: rgb(255, 255, 255);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 95px;
+}
+
+.horizontal_line{
+    height: 10px;
+    width: 250px;
+    position: absolute;
+    top: 500px;
+    left: 90px;
+    background-color: white;
+    color: white;
+    font-size: 2px;
+    margin-top: 20px;
+}
+
+.text_box_caption{
+    height: 8%;
+    width: 350px;
+    position: absolute;
+    top: 530px;
+    left: 90px;
+    color: rgb(255, 254, 254);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    margin-top: 30px;
+}
+
+.CTA_BUTTON{
+    height: 33px;
+    width: 150px;
+    position: absolute;
+    top: 650px;
+    left: 90px;
+    background-color: rgb(138, 1, 22);
+    color: white;
+    font-size: 13px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.CTA_BUTTON:hover{
+    text-decoration: underline;
+    color: rgb(255, 243, 7);
+}
+
+
+.column1{
+    backdrop-filter: blur(5px);
+    background-color: rgb(255,255,255,0.5);
+    flex: 1;
+    border-radius: 20px;
+    border-right: solid;
+    border-color: black;
+    border-width: 3px;
+    padding: 20px;
+}
+
+.column2{
+    backdrop-filter: blur(5px);
+    background-color: rgb(255,255,255,0.5);
+    flex: 1;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.form_components1{
+    margin: 30px;
+    font-size: 20px;
+}
+
+
+
+.field_label{
+    font-size: 20px;
+    margin-top: 10px;
+    
+}
+
+.field_box{
+    margin-top: 5px;
+    width: 400px;
+    height: 30px;
+}
+
+.pdf_button{
+    margin-left: 10px;
+    margin-top: 5px;
+    width: 400px;
+    height: 30px;
+}
+
+.field_box_container{
+    margin-top: 5px;
+    width: 400px;
+    height: 30px;
+    border: solid;
+    background-color: white;
+    border-width: 1px;
+}
+
+.field_box_select{
+    margin-top: 5px;
+    width: 405px;
+    height: 36px;
+}
+
+.radio{
+    margin-top: 10px;
+}
+
+.button{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.submit_button{
+    background-color: white;    
+    height: 30px;
+    width: 80px;
+    font-size: 15px;
+    border-radius: 20px;
+    border: solid;
+    border-width: 1.5px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.submit_button:hover{
+    text-decoration: underline;
+}
+
+.logoss{
+    height: 25px;
+    margin: 10px;
+    opacity: 0.9;
+    cursor: pointer;
+}
